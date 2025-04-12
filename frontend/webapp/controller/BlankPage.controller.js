@@ -3,7 +3,7 @@ sap.ui.define([
 ], (Controller) => {
     "use strict";
 
-    return Controller.extend("f.controller.BlankPage", {
+    return Controller.extend("frontend.controller.BlankPage", {
         onInit() {
         }
     });

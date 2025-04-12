@@ -43,12 +43,12 @@ modules:
     build-result: resources
     requires:
     - artifacts:
-      - f.zip
-      name: f
+      - frontend.zip
+      name: frontend
       target-path: resources/
-- name: f
+- name: frontend
   type: html5
-  path: f
+  path: frontend
   build-parameters:
     build-result: dist
     builder: custom
